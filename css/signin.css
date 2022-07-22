@@ -1,0 +1,96 @@
+h1{
+     margin-top: 30px;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    margin: 0px 100px 0px 100px;
+}
+.login-form-1 .register-form-1{
+    text-align: center;
+    color: #333;
+}
+.login-form-2{
+   text-align: center;
+   padding: 50px 0px 50px 0px;
+}
+.register-form-2{
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+}
+.login-container form{
+    padding: 30px 70px 30px 70px;
+}
+.register-container form{
+    padding: 0px 70px 0px 70px;
+}
+.btnSubmit{
+    margin-top: 20px;
+    color: #00b686;
+    width: 40%;
+    border-radius: 3rem;
+    padding: 1.5%;
+    border-color: #00b686;
+    border-width: 1px;
+    background-color: #f8f9fa;
+}
+.btnSubmit:hover{
+    background-color: #00b686;
+    color: #fff;
+}
+.login-form-1 .ForgetPwd{
+    color:#757575;
+    text-decoration: none;
+}
+.omb_btn-facebook{
+    color: #fff;
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+.omb_btn-google{
+    color: #fff;
+    background-color: #ec4a3e;
+    border-color: #DB4A39;
+}
+.omb_btn-apple{
+    border-color: black;
+}
+.letak{
+    margin-left: 20px;
+}
+.input-form {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 1em 0;  
+}
+input, label{
+    transition: 0.4s ease;
+    background-color: #f8f9fa;
+}
+label{
+    padding-left: 10px;
+    transform: translate(4px, -14px) scale(1.02);
+    margin-bottom: 2px;
+    cursor: text;
+    transform-origin: left top;
+    color: #757575;
+    position: absolute;
+}
+input{
+    font-size: 1.2em;
+    padding: 30px 10px 10px 10px;
+    border: none;
+    border-bottom: 2px solid #bdc3c7;
+    outline: none;
+}
+input::placeholder{
+    opacity: 0;
+} 
+input:focus, input:hover, input:not(:placeholder-shown) {
+    border-bottom: 2px solid #00b686;
+}
+input:not(:placeholder-shown) ~ label, input:focus ~ label {
+    transform: translate(10px, -35px) scale(0.8);
+    padding-left: 0px;
+    color: #00b686;
+}

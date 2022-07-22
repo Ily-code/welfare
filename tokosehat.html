@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="img/icon/iconweb.png" />
+    <title>Welfare</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="fontawesome/css/all.min.css" rel="stylesheet" />
+    <link href="css/w3.css" rel="stylesheet" />
+    <link href="css/afont.css" rel="stylesheet" />
+    <link href="css/scbar.css" rel="stylesheet" />
+    <link href="css/chatpop.css" rel="stylesheet" />
+    <link href="css/maprs.css" rel="stylesheet" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="aos/dist/aos.js"></script>
+    <link href="aos/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body class="bg-light">
+    <script>
+      AOS.init();
+    </script>
+    <!--navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <i class="fas fa-heartbeat" style="font-size: 48px; color: #00b686"></i>
+        <a class="navbar-brand fonthp" href="beranda.html"><font class="fontprimary" size="+2">&nbsp;Welfare</font></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
+            <li class="nav-item fonthp active">
+              <a class="nav-link" aria-current="page" href="cari dr.html"><font class="fontprimary" size="+1">Dokter</font></a>
+            </li>
+            <li class="nav-item fonthp">
+              <a class="nav-link" href="cari rs.html"><font class="fontprimary" size="+1">Rumah Sakit</font></a>
+            </li>
+            <li class="nav-item fonthp">
+              <a class="nav-link" href="cariobat.html"><font class="fontprimary" size="+1">Obat</font></a>
+            </li>
+            <li class="nav-item fonthp">
+              <a class="nav-link" href="tokosehat.html"><font class="fontprimary" size="+1">Toko Kesehatan</font></a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-success" type="submit">Search</button>
+            <br />
+            &nbsp;
+            <a class="btn btn-success" href="login.html" role="button">Login</a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--navbar -->
+    <div class="container" style="margin-top: 80px; margin-bottom: 80px">
+      <form class="d-flex">
+        <div class="input-group input-group-lg">
+          <button class="btn btn-outline-success" type="submit">
+            <i class="fas fa-search" style="color: f8f9fa"> &nbsp;<font class="fontprimary">Cari</font></i>
+          </button>
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+        </div>
+      </form>
+    </div>
+    <!--card -->
+    <div class="container" style="margin-top: 80px; margin-bottom: 80px">
+      <center>
+        <h2 class="fontprimary">Makanan & Minuman</h2>
+      </center>
+      <div class="row row-cols-5 row-cols-md-4 g-4">
+        <!-- card -->
+        <div class="col">
+          <div class="card border-success" style="max-width: 14rem" data-aos="flip-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
+            <img src="imgtk/1.jpg" class="card-img-top" alt="g1png" />
+            <div class="card-body">
+              <br />
+              <br />
+              <p class="card-title fontprimary text-center">AQUA BOTOL 600 ML</p>
+              <p class="text-center fontprimary">Per Botol<br /></p>
+              <p class="text-center fontprimary">Rp 2.500 - Rp 5.000</p>
+              <center><button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Beli</button></center>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- card -->
+        <div class="col">
+          <div class="card border-success" style="max-width: 14rem" data-aos="flip-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
+            <img src="imgtk/2.jpg" class="card-img-top" alt="g1png" />
+            <div class="card-body">
+              <br />
+              <br />
+              <p class="card-title fontprimary text-center">POCARI SWEAT 500 ML</p>
+              <p class="text-center fontprimary">Per Botol</p>
+              <p class="text-center fontprimary">Rp 6.500 - Rp 13.000</p>
+              <center><button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Beli</button></center>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- card -->
+        <div class="col">
+          <div class="card border-success" style="max-width: 14rem" data-aos="flip-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
+            <img src="imgtk/3.jpg" class="card-img-top" alt="g1png" />
+            <br />
+            <div class="card-body">
+              <p class="card-title fontprimary text-center">YOU-C 1000 ORANGE WATER 500 ML</p>
+              <p class="text-center fontprimary">Per Botol</p>
+              <p class="text-center fontprimary">Rp 6.500 - Rp 16.000</p>
+              <center><button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Beli</button></center>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- card -->
+        <div class="col">
+          <div class="card border-success" style="max-width: 14rem" data-aos="flip-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
+            <img src="imgtk/4.jpg" class="card-img-top" alt="g1png" />
+            <div class="card-body">
+              <p class="card-title fontprimary text-center">YOUVIT GUMMY ANAK RASA STROBERI JERUK NANAS 7 TABLET</p>
+              <p class="text-center fontprimary">Per Piece</p>
+              <p class="text-center fontprimary">Rp 13.800 - Rp 29.800</p>
+              <center><button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Beli</button></center>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- batas row -->
+        <!-- card -->
+        <div class="col">
+          <div class="card border-success" style="max-width: 14rem" data-aos="flip-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
+            <img src="imgtk/5.jpg" class="card-img-top" alt="g1png" />
+            <div class="card-body">
+              <p class="card-title fontprimary text-center">VIVITY R-HYDRATE APEL 200 ML</p>
+              <p class="text-center fontprimary">Per Piece</p>
+              <p class="text-center fontprimary">Rp 13.800 - Rp 29.800</p>
+              <center><button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Beli</button></center>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- card -->
+        <div class="col">
+          <div class="card border-success" style="max-width: 14rem" data-aos="flip-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
+            <img src="imgtk/6.jpg" class="card-img-top" alt="g1png" />
+            <div class="card-body">
+              <p class="card-title fontprimary text-center">ADES AIR MINERAL BOTOL 1500 ML</p>
+              <p class="text-center fontprimary">Per Botol</p>
+              <p class="text-center fontprimary">Rp 4.000 - Rp 12.000</p>
+              <center><button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Beli</button></center>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- card -->
+        <div class="col">
+          <div class="card border-success" style="max-width: 14rem" data-aos="flip-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
+            <img src="imgtk/7.jpg" class="card-img-top" alt="g1png" />
+            <div class="card-body">
+              <p class="card-title fontprimary text-center">AL-JAZIRA PREMIUM SARI KURMA 360 ML</p>
+              <p class="text-center fontprimary">Per Botol</p>
+              <p class="text-center fontprimary">Rp 21.600 - Rp 60.600</p>
+              <center><button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Beli</button></center>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- card -->
+        <div class="col">
+          <div class="card border-success" style="max-width: 14rem" data-aos="flip-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
+            <img src="imgtk/8.jpg" class="card-img-top" alt="g1png" />
+            <div class="card-body">
+              <p class="card-title fontprimary text-center">AMIRA SARI KURMA 350 G</p>
+              <p class="text-center fontprimary">Per Botol</p>
+              <p class="text-center fontprimary">Rp 59.400 - Rp 108.000</p>
+              <center><button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Beli</button></center>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- batas row -->
+        <!-- card -->
+        <div class="col">
+          <div class="card border-success" style="max-width: 14rem" data-aos="flip-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
+            <img src="imgtk/9.jpg" class="card-img-top" alt="g1png" />
+            <div class="card-body">
+              <br />
+              <p class="card-title fontprimary text-center">ANTANGIN PERMEN HERBAL HONEY MINT 5 TABLET</p>
+              <p class="text-center fontprimary">Per Sachet</p>
+              <p class="text-center fontprimary">Rp 1.300 - Rp 4.800</p>
+              <center><button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Beli</button></center>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- card -->
+        <div class="col">
+          <div class="card border-success" style="max-width: 14rem" data-aos="flip-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
+            <img src="imgtk/10.jpg" class="card-img-top" alt="g1png" />
+            <div class="card-body">
+              <br />
+              <br />
+              <br />
+              <p class="card-title fontprimary text-center">AQUA BOTOL 330 ML</p>
+              <p class="text-center fontprimary">Per Botol</p>
+              <p class="text-center fontprimary">Rp 1.400 - Rp 5.200</p>
+              <center><button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Beli</button></center>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- card -->
+        <div class="col">
+          <div class="card border-success" style="max-width: 14rem" data-aos="flip-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
+            <img src="imgtk/11.jpg" class="card-img-top" alt="g1png" />
+            <div class="card-body">
+              <p class="card-title fontprimary text-center">EGOJI CHEWY GUMMY BLACKCURRANT 20 GR ISI 10</p>
+              <p class="text-center fontprimary">Per Sachet</p>
+              <p class="text-center fontprimary">Rp 9.400 - Rp 16.500</p>
+              <center><button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Beli</button></center>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- card -->
+        <div class="col">
+          <div class="card border-success" style="max-width: 14rem" data-aos="flip-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
+            <img src="imgtk/12.jpg" class="card-img-top" alt="g1png" />
+            <div class="card-body">
+              <br />
+              <p class="card-title fontprimary text-center">FISHERMAN'S FRIEND RASA LEMON SUGAR FREE</p>
+              <p class="text-center fontprimary">Per Sachet</p>
+              <p class="text-center fontprimary">Rp 10.500 - Rp 30.000</p>
+              <center><button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Beli</button></center>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- batas row -->
+        <!-- card -->
+        <div class="col">
+          <div class="card border-success" style="max-width: 14rem" data-aos="flip-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
+            <img src="imgtk/13.jpg" class="card-img-top" alt="g1png" />
+            <div class="card-body">
+                <br>
+              <p class="card-title fontprimary text-center">FITBAR CHOCOLATE 24 GR</p>
+              <p class="text-center fontprimary">Per Piece</p>
+              <p class="text-center fontprimary">Rp 3.200 - Rp 9.300</p>
+              <center><button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Beli</button></center>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- card -->
+        <div class="col">
+          <div class="card border-success" style="max-width: 14rem" data-aos="flip-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
+            <img src="imgtk/14.jpg" class="card-img-top" alt="g1png" />
+            <div class="card-body">
+              <br />
+              <br />
+              <p class="card-title fontprimary text-center">POCARI SWEAT 2 LITER</p>
+              <p class="text-center fontprimary">Per Botol</p>
+              <p class="text-center fontprimary">Rp 15.300 - Rp 29.000</p>
+              <center><button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Beli</button></center>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- card -->
+        <div class="col">
+          <div class="card border-success" style="max-width: 14rem" data-aos="flip-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
+            <img src="imgtk/15.jpg" class="card-img-top" alt="g1png" />
+            <div class="card-body">
+              <br />
+              <br />
+              <p class="card-title fontprimary text-center">POCARI SWEAT 350 ML</p>
+              <p class="text-center fontprimary">Per Botol</p>
+              <p class="text-center fontprimary">Rp 5.100 - Rp 12.700</p>
+              <center><button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Beli</button></center>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- card -->
+        <div class="col">
+          <div class="card border-success" style="max-width: 14rem" data-aos="flip-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
+            <img src="imgtk/16.jpg" class="card-img-top" alt="g1png" />
+            <div class="card-body">
+              <p class="card-title fontprimary text-center">SAR MADU HITAM PAHIT PLUS PROPOLIS 175 G</p>
+              <p class="text-center fontprimary">Per Botol</p>
+              <p class="text-center fontprimary">Rp 36.000 - Rp 45.700</p>
+              <center><button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Beli</button></center>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- batas row -->
+        <!-- card -->
+        <div class="col">
+          <div class="card border-success" style="max-width: 14rem" data-aos="flip-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
+            <img src="imgtk/17.jpg" class="card-img-top" alt="g1png" />
+            <div class="card-body">
+              <p class="card-title fontprimary text-center">SAR MADU HITAM PAHIT PLUS PROPOLIS 470 G</p>
+              <p class="text-center fontprimary">Per Botol</p>
+              <p class="text-center fontprimary">Rp 55.000 - Rp 132.300</p>
+                <center><button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Beli</button></center>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- card -->
+        <div class="col">
+          <div class="card border-success" style="max-width: 14rem" data-aos="flip-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
+            <img src="imgtk/18.jpg" class="card-img-top" alt="g1png" />
+            <div class="card-body">
+              <br /><br>
+              <p class="card-title fontprimary text-center">VEGETA SCRUBBER 6 SACHET</p>
+              <p class="text-center fontprimary">Per Sachet</p>
+              <p class="text-center fontprimary">Rp 10.700 - Rp 27.500</p>
+              <center><button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Beli</button></center>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- card -->
+        <div class="col">
+          <div class="card border-success" style="max-width: 14rem" data-aos="flip-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
+            <img src="imgtk/19.jpg" class="card-img-top" alt="g1png" />
+            <div class="card-body">
+              <br /><br>
+              <p class="card-title fontprimary text-center">ABC MINUMAN BUAH APEL 250 ML</p>
+              <p class="text-center fontprimary">Per Box</p>
+              <p class="text-center fontprimary">Rp 4.600 - Rp 8.300</p>
+              <center><button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Beli</button></center>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- card -->
+        <div class="col">
+          <div class="card border-success" style="max-width: 14rem" data-aos="flip-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
+            <img src="imgtk/20.jpg" class="card-img-top" alt="g1png" />
+            <div class="card-body"><br>
+              <p class="card-title fontprimary text-center">ABC MINUMAN BUAH MANGGA & APEL 250 ML</p>
+              <p class="text-center fontprimary">Per Box</p>
+              <p class="text-center fontprimary">Rp 5.400 - Rp 10.000</p>
+              <center><button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Beli</button></center>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+      </div>
+    </div>
+    <!--card -->
+    <div class=" container">
+      <!--paginatiom -->
+<nav aria-label="Page navigation example">
+    <ul class="pagination d-flex justify-content-center">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="page-item active"><a class="page-link fontprimary" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  </div>
+  <!--paginatiom -->
+</div>
+  </body>
+  <!-- FOOTER -->
+  <footer class="bg-success">
+    <div class="container" style="margin-top: 40px">
+      <div class="row">
+        <div class="col-md-4" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="200" data-aos-duration="1000">
+          <h4>Tentang Kami</h4>
+          <p>PT. Walfare</p>
+          <p>Jl. Ahmad Yani, Tlk. Tering, Kec. Batam Kota</p>
+          <p>Batam 29461, Indonesia</p>
+          <p class="gmail"><i class="fas fa-envelope" style="color: #e0f2f1"></i> welfare@gmail.com</p>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="200" data-aos-duration="1000">
+          <h4>Layanan Kami</h4>
+          <ul>
+            <li>Cari Dokter</li>
+            <li>Cari Rumah Sakit</li>
+            <li>Cari Obat</li>
+            <li>Toko Kesehatan</li>
+          </ul>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="200" data-aos-duration="1000">
+          <h4>Info Kontak</h4>
+          <a href="https://wa.me/6282281040011" target="_blank"><i class="fab fa-whatsapp" style="font-size: 24px"></i> 0812345678</a><br />
+          <a href="https://www.facebook.com/welfareofficial" target="_blank"><i class="fab fa-facebook" style="font-size: 24px"></i> Welfare</a><br />
+          <a href="https://www.instagram.com/welfare/" target="_blank"><i class="fab fa-instagram" style="font-size: 24px"></i> Welfare.id</a><br />
+          <a href="https://www.twitter.com/welfare" target="_blank"><i class="fab fa-twitter" style="font-size: 24px"></i> Welfare.id</a><br />
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-success" data-aos="zoom-in" data-aos-offset="0" data-aos-delay="200" data-aos-duration="1000">
+      <p class="pt-2 text-center">Copyright © 2021 All rights reserved | This website is made with <i class="fas fa-heart"></i> by [ Ilyasa Alharis | 3312001077 ] & [ Retno Sari Dewi | 3312001063 ]</p>
+    </div>
+  </footer>
+  <!-- FOOTER -->
+</html>
